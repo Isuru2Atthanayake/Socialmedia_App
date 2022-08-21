@@ -44,7 +44,7 @@ const Navbar = () => {
           <Badge badgeContent={2} color="error">
             <Notifications/>
           </Badge>
-          <Avatar sx={{width:30 , height:30}} alt="Cindy Baker" src=""
+          <Avatar sx={{width:30 , height:30}} alt="Cindy Baker" src="https://www.pexels.com/photo/wood-cars-road-nature-10465241/"
           onClick={e => setOpen(true)}
           />
         </Icons>

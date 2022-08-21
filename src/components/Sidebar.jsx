@@ -12,73 +12,75 @@ import ModeNightIcon from '@mui/icons-material/ModeNight';
 const sidebar = () => {
   return (
     <Box bgcolor="" flex={1} padding={2} sx={{display: {xs:"none",sm:"block"}}}>
-        <List>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#home">
-                <ListItemIcon>
-                  <HomeIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Homepage" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#pages">
-                <ListItemIcon>
-                  <ArticleIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Pages" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#Groups">
-                <ListItemIcon>
-                  <GroupIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Groups" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#Marcketplace">
-                <ListItemIcon>
-                  <StorefrontIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Marcketplace" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#Friends">
-                <ListItemIcon>
-                  <PersonIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Friends" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#Settings">
-                <ListItemIcon>
-                  <SettingsIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Settings" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#Profile">
-                <ListItemIcon>
-                  <AccountBoxIcon/>
-                </ListItemIcon>
-              <ListItemText primary="Profile" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-              <ListItemButton component="a" href="#Marcketplace">
-                <ListItemIcon>
-                  <ModeNightIcon/>
-                </ListItemIcon>
-                <Switch/>
-            </ListItemButton>
-          </ListItem>
-        </List>
-        </Box>
+        <Box position="fixed">
+            <List>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#home">
+                    <ListItemIcon>
+                      <HomeIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Homepage" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#pages">
+                    <ListItemIcon>
+                      <ArticleIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Pages" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#Groups">
+                    <ListItemIcon>
+                      <GroupIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Groups" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#Marcketplace">
+                    <ListItemIcon>
+                      <StorefrontIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Marcketplace" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#Friends">
+                    <ListItemIcon>
+                      <PersonIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Friends" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#Settings">
+                    <ListItemIcon>
+                      <SettingsIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Settings" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#Profile">
+                    <ListItemIcon>
+                      <AccountBoxIcon/>
+                    </ListItemIcon>
+                  <ListItemText primary="Profile" />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                  <ListItemButton component="a" href="#Marcketplace">
+                    <ListItemIcon>
+                      <ModeNightIcon/>
+                    </ListItemIcon>
+                    <Switch/>
+                </ListItemButton>
+              </ListItem>
+            </List>
+        </Box>    
+    </Box>
   )
 }
 
