@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, ListItem, ListItemButton,InboxIcon, ListItemIcon, ListItemText, List} from "@mui/material"
+import {Box, ListItem, ListItemButton,InboxIcon, ListItemIcon, ListItemText, List, Switch} from "@mui/material"
 import HomeIcon from '@mui/icons-material/Home';
 import ArticleIcon from '@mui/icons-material/Article';
 import GroupIcon from '@mui/icons-material/Group';
@@ -7,6 +7,7 @@ import StorefrontIcon from '@mui/icons-material/Storefront';
 import PersonIcon from '@mui/icons-material/Person';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import ModeNightIcon from '@mui/icons-material/ModeNight';
 
 const sidebar = () => {
   return (
@@ -66,6 +67,14 @@ const sidebar = () => {
                   <AccountBoxIcon/>
                 </ListItemIcon>
               <ListItemText primary="Profile" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+              <ListItemButton component="a" href="#Marcketplace">
+                <ListItemIcon>
+                  <ModeNightIcon/>
+                </ListItemIcon>
+                <Switch/>
             </ListItemButton>
           </ListItem>
         </List>
