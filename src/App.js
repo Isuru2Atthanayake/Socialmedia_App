@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar"
 import {Container} from "@mui/material"
 import {Box} from "@mui/material"
 import {Stack} from "@mui/material"
+import Addpost from "./components/Add"
 function App() {
 
   // const BlueButton = styled(Button)(({theme})=>({
@@ -35,7 +36,7 @@ function App() {
       <Feed/>
       <Rightbar/>
     </Stack>
-    
+    <Addpost/>
   </Box>
   );
 }

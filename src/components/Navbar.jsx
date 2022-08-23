@@ -4,6 +4,8 @@ import AdbIcon from '@mui/icons-material/Adb';
 import MailIcon from '@mui/icons-material/Mail';
 import Badge from '@mui/material/Badge';
 import { Notifications } from '@mui/icons-material';
+import img1 from '../images/girl.png';
+import img2 from '../images/girl.jpg';
 
 const StyledToolbar = styled(Toolbar) ({
   display: 'flex',
@@ -44,7 +46,7 @@ const Navbar = () => {
           <Badge badgeContent={2} color="error">
             <Notifications/>
           </Badge>
-          <Avatar sx={{width:30 , height:30}} alt="Cindy Baker" src="https://www.pexels.com/photo/wood-cars-road-nature-10465241/"
+          <Avatar sx={{width:30 , height:30}} alt="Cindy Baker" src={img1}
           onClick={e => setOpen(true)}
           />
         </Icons>

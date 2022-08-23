@@ -9,6 +9,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 
+
 const sidebar = () => {
   return (
     <Box bgcolor="" flex={1} padding={2} sx={{display: {xs:"none",sm:"block"}}}>
@@ -79,7 +80,7 @@ const sidebar = () => {
                 </ListItemButton>
               </ListItem>
             </List>
-        </Box>    
+        </Box> 
     </Box>
   )
 }
