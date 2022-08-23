@@ -10,7 +10,7 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 
 
-const sidebar = () => {
+const sidebar = ({setMode,mode}) => {
   return (
     <Box bgcolor="" flex={1} padding={2} sx={{display: {xs:"none",sm:"block"}}}>
         <Box position="fixed">
@@ -76,7 +76,7 @@ const sidebar = () => {
                     <ListItemIcon>
                       <ModeNightIcon/>
                     </ListItemIcon>
-                    <Switch/>
+                    <Switch onChange={ e=> setMode(mode === "light" ? "dark" : "light")}/> {/* switch button and the condition */}
                 </ListItemButton>
               </ListItem>
             </List>
